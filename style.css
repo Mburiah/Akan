@@ -1,8 +1,10 @@
 body{
     background-image: url("/images/KenteClothforAkan.jpg ");
-        background-repeat:no-repeat;
-       background-size:cover;
-}   font-family: 'Spicy Rice', cursive;
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: 'Spicy Rice', cursive;
+    font-style: normal;
+
     }
 .responsive{
     width: 100%;
