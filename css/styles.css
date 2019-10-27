@@ -1,9 +1,9 @@
 body{
-    background-image: url("/images/KenteClothforAkan.jpg ");
-        background-repeat:no-repeat;
-       background-size:cover;
-}   font-family: 'Spicy Rice', cursive;
-    }
+    background-image: url("./images/beauty2.jpg");
+    background-size: cover;
+    
+}
+    
 .responsive{
     width: 100%;
     height: auto;
@@ -11,7 +11,7 @@ body{
 
 .jumbotron h1,h2{
     text-align: center;
-    color: brown;
+    color: blueviolet
 }
 
 .space{
@@ -33,12 +33,6 @@ form{
 .submit {
    padding-right: 20px;
 }
-.label{
-color:white;
-}
-.cont{
+.navbar{
     text-align: center;
-}
-.cont{
-    text-align: centre !important;
 }
