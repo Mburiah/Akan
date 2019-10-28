@@ -2,15 +2,8 @@ body{
     background-image: url("./images/background.jpg");
     background-repeat: repeat;
     background-size:center;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Comfortaa', cursive;
     font-style: default;
-    }
-nav {
-    text-align: center;
-    font size: 124px;
-}
-.jumbotron {
- color:purple;
 }
 .responsive{
     width: 100%;
@@ -19,7 +12,8 @@ nav {
 
 .jumbotron h1,h2{
     text-align: center;
-    color: rgb(42, 165, 124);
+    color:rgb(2, 3, 14);
+    
 }
 
 .space{
