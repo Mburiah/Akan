@@ -10,8 +10,8 @@ This web app requires internet connection.
 ## BDD
 *  BDD stands for Behaviour-Driven Development.
 
- |Input| Description|
- |:---    | ---:|
+ | Input | Description|
+ |:---    | ---: |
  | Date  | Day of the month |     
  | Month | Month of the year |
  | Year | The year born YYYY/MM/DD |
