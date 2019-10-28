@@ -7,7 +7,7 @@ function giveAkanName () {
     var month=parseInt(document.getElementById("month").value);
     var day=parseInt(document.getElementById("day").value);
     var gender=getGender();
-    var date = new Date(year +"/" + month + "/"+ day);
+    var date = new Date(year +"/" + month + "/"+day);
     var dayBorn = date.getDay();
     var akanName;
 
@@ -17,7 +17,7 @@ function giveAkanName () {
     else{
         akanName = femaleNames[dayBorn];
     }
-    alert("You were born on "+dayOfTheWeek[dayBorn]+ " your Akan name is "+akanName);
+    alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
 }
     function getGender(){
         var gender = document.getElementsByName("gender");
@@ -28,4 +28,4 @@ function giveAkanName () {
         }
     }
 }
-    
+5
