@@ -7,7 +7,7 @@ function giveAkanName () {
     var month=parseInt(document.getElementById("month").value);
     var day=parseInt(document.getElementById("day").value);
     var gender=getGender();
-    var date = new Date(year +"/" + month + "/var"+day);
+    var date = new Date(year +"/" + month + "/"+day);
     var dayBorn = date.getDay();
     var akanName;
 
@@ -28,6 +28,4 @@ function giveAkanName () {
         }
     }
 }
-    
-
     
