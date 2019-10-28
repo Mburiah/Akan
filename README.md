@@ -8,7 +8,8 @@ This is a simple web app that enables one to know the day of the week they were 
 This web app requires internet connection.
  
 ## BDD
- BDD stands for Behaviour-Driven Development.
+*  BDD stands for Behaviour-Driven Development.
+
  |Input| Description|
  |:---    | ---:|
  | Date  | Day of the month |     
