@@ -9,6 +9,17 @@ This web app requires internet connection.
  
 ## BDD
  BDD stands for Behaviour-Driven Development.
+ |Input| Description|
+ |:---    | ---:|
+ | Date  | Day of the month |     
+ | Month | Month of the year |
+ | Year | The year born YYYY/MM/DD |
+ | Gender | Male or Female |
+
+ | Output | Description |
+ | :---   | ---:  |
+ | Day of birth | You were born on, "Day of the week" |
+ | Akan name | and Your Akan name is, "Name" |
 ## Technologies used.
 * HTML
 * CSS
