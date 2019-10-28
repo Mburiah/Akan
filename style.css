@@ -9,8 +9,9 @@ body{
 nav {
     text-align: center;
     display: flex;
-    font size: 2%;
-    
+    font size: 124px;
+
+
 }
 .responsive{
     width: 100%;
@@ -19,7 +20,7 @@ nav {
 
 .jumbotron h1,h2{
     text-align: center;
-    color: brown;
+    color: rgb(42, 165, 124);
 }
 
 .space{
