@@ -1,16 +1,16 @@
 body{
-    background-image: url("images/Memorial-head.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    font-family: 'Spicy Rice', cursive;
-    font-style: normal;
-
+    background-image: url("./images/background.jpg");
+    background-repeat: repeat;
+    background-size:center;
+    font-family: 'PT Mono', monospace;
+    font-style: default;
     }
 nav {
     text-align: center;
-    display: flex;
     font size: 124px;
-
+}
+.jumbotron {
+ color:purple;
 }
 .responsive{
     width: 100%;
@@ -33,7 +33,7 @@ form{
 .form-group{
     width: 30%;
     margin: auto;
-    color: blue;
+    color:hotpink;
 }
 .month{
     padding-top: 12px;
@@ -44,8 +44,10 @@ form{
 .label{
 color:white;
 }
-.cont{
-    text-align: center;
+footer {
+    padding: 20px;
+    color: burlywood;
+}
 }
 .cont{
     text-align: centre !important;
