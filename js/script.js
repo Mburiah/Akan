@@ -10,8 +10,11 @@ function giveAkanName () {
     var date = new Date(year +"/" + month + "/"+day);
     var dayBorn = date.getDay();
     var akanName;
+    var validate = (year > 0 && (month >0 && month <=12) && (day > 0 && day <= 31));
+    var validateGender = (gender !== "male" && gender !== "female");
 
-    if (year < 0 ) {
+
+    if (year <= 0 ) {
         alert("Invalid year");
     }
     else if (month <= 0 || month > 12) {
@@ -20,12 +23,19 @@ function giveAkanName () {
     else if (day <= 0 || day > 31){
         alert("Date is between 1 and 31");
     }
-    if(gender ==="male" && year > 0 && month >= 0 && month < 13 && day >= 0 && day < 32){
+
+    else if (validate == false) {
+        alert("Invalid Input!!");
+    }
+    else if (validateGender == true){
+        alert("Gender blank");
+    }
+    if(gender ==="male" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = maleNames[dayBorn];
     alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
 
     }
-    else if (gender === "female" && year > 0 && month >= 0 && month < 13 && day >= 0 && day < 32){
+    else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = femaleNames[dayborn]; 
     alert("You were born on "+dayOfTheWeek[dayBorn]+ " and your Akan name is "+akanName);
 
